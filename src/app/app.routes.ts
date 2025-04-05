@@ -18,6 +18,10 @@ export const routes: Routes = [
         component:EmployeeFormComponent
     },
     {
+        path: 'edit-employee/:id',
+        component:EmployeeFormComponent
+    },
+    {
         path: '**',
         component:NotFoundComponent
     }
